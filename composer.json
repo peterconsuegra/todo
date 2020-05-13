@@ -16,5 +16,12 @@
     "minimum-stability": "dev",
     "require": {
         "illuminate/support": "~5"
-    }
+    },
+	"extra": {
+	    "laravel": {
+	        "providers": [
+	            "Amitav\\Todo\\TodoServiceProvider"
+	        ]
+	    }
+	}
 }
